@@ -16,6 +16,8 @@
 		18F0F2BF23ADEDA1005B76F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F0F2BD23ADEDA1005B76F4 /* LaunchScreen.storyboard */; };
 		18F0F2CA23ADEDA1005B76F4 /* TippoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0F2C923ADEDA1005B76F4 /* TippoTests.swift */; };
 		18F0F2D523ADEDA2005B76F4 /* TippoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0F2D423ADEDA2005B76F4 /* TippoUITests.swift */; };
+		18F0F2E323ADF84E005B76F4 /* InputCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0F2E223ADF84E005B76F4 /* InputCardView.swift */; };
+		18F0F2E523AE0271005B76F4 /* OutputCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0F2E423AE0271005B76F4 /* OutputCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		18F0F2D023ADEDA2005B76F4 /* TippoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F0F2D423ADEDA2005B76F4 /* TippoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippoUITests.swift; sourceTree = "<group>"; };
 		18F0F2D623ADEDA2005B76F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F0F2E223ADF84E005B76F4 /* InputCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputCardView.swift; sourceTree = "<group>"; };
+		18F0F2E423AE0271005B76F4 /* OutputCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				18F0F2B123ADEDA1005B76F4 /* SceneDelegate.swift */,
 				18F0F2B323ADEDA1005B76F4 /* ViewController.swift */,
 				18F0F2B523ADEDA1005B76F4 /* Main.storyboard */,
+				18F0F2E423AE0271005B76F4 /* OutputCardView.swift */,
+				18F0F2E223ADF84E005B76F4 /* InputCardView.swift */,
 				18F0F2BB23ADEDA1005B76F4 /* Assets.xcassets */,
 				18F0F2BD23ADEDA1005B76F4 /* LaunchScreen.storyboard */,
 				18F0F2C023ADEDA1005B76F4 /* Info.plist */,
@@ -265,7 +271,9 @@
 				18F0F2B423ADEDA1005B76F4 /* ViewController.swift in Sources */,
 				18F0F2B023ADEDA1005B76F4 /* AppDelegate.swift in Sources */,
 				18F0F2BA23ADEDA1005B76F4 /* Tippo.xcdatamodeld in Sources */,
+				18F0F2E323ADF84E005B76F4 /* InputCardView.swift in Sources */,
 				18F0F2B223ADEDA1005B76F4 /* SceneDelegate.swift in Sources */,
+				18F0F2E523AE0271005B76F4 /* OutputCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
