@@ -18,6 +18,9 @@
 		18F0F2D523ADEDA2005B76F4 /* TippoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0F2D423ADEDA2005B76F4 /* TippoUITests.swift */; };
 		18F0F2E323ADF84E005B76F4 /* InputCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0F2E223ADF84E005B76F4 /* InputCardView.swift */; };
 		18F0F2E523AE0271005B76F4 /* OutputCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0F2E423AE0271005B76F4 /* OutputCardView.swift */; };
+		18F0F2E723AEA031005B76F4 /* BillAmountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0F2E623AEA031005B76F4 /* BillAmountTextField.swift */; };
+		18F0F2E923AEAA49005B76F4 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0F2E823AEAA49005B76F4 /* HeaderView.swift */; };
+		18F0F2EB23AEAEF3005B76F4 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0F2EA23AEAEF3005B76F4 /* ColorTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		18F0F2D623ADEDA2005B76F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F0F2E223ADF84E005B76F4 /* InputCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputCardView.swift; sourceTree = "<group>"; };
 		18F0F2E423AE0271005B76F4 /* OutputCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputCardView.swift; sourceTree = "<group>"; };
+		18F0F2E623AEA031005B76F4 /* BillAmountTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillAmountTextField.swift; sourceTree = "<group>"; };
+		18F0F2E823AEAA49005B76F4 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		18F0F2EA23AEAEF3005B76F4 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +114,10 @@
 				18F0F2AF23ADEDA1005B76F4 /* AppDelegate.swift */,
 				18F0F2B123ADEDA1005B76F4 /* SceneDelegate.swift */,
 				18F0F2B323ADEDA1005B76F4 /* ViewController.swift */,
+				18F0F2EA23AEAEF3005B76F4 /* ColorTheme.swift */,
 				18F0F2B523ADEDA1005B76F4 /* Main.storyboard */,
+				18F0F2E823AEAA49005B76F4 /* HeaderView.swift */,
+				18F0F2E623AEA031005B76F4 /* BillAmountTextField.swift */,
 				18F0F2E423AE0271005B76F4 /* OutputCardView.swift */,
 				18F0F2E223ADF84E005B76F4 /* InputCardView.swift */,
 				18F0F2BB23ADEDA1005B76F4 /* Assets.xcassets */,
@@ -268,12 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F0F2EB23AEAEF3005B76F4 /* ColorTheme.swift in Sources */,
 				18F0F2B423ADEDA1005B76F4 /* ViewController.swift in Sources */,
 				18F0F2B023ADEDA1005B76F4 /* AppDelegate.swift in Sources */,
 				18F0F2BA23ADEDA1005B76F4 /* Tippo.xcdatamodeld in Sources */,
+				18F0F2E723AEA031005B76F4 /* BillAmountTextField.swift in Sources */,
 				18F0F2E323ADF84E005B76F4 /* InputCardView.swift in Sources */,
 				18F0F2B223ADEDA1005B76F4 /* SceneDelegate.swift in Sources */,
 				18F0F2E523AE0271005B76F4 /* OutputCardView.swift in Sources */,
+				18F0F2E923AEAA49005B76F4 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
